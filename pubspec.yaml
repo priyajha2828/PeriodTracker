@@ -1,0 +1,53 @@
+name: myperioddiary
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.7.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+#  http: ^0.13.6
+  image_picker: ^0.8.7+4
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.8
+  get: ^4.6.5
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+#    - assets/images/childpose.png
+#      - assets/images/catcow.png
+#      - assets/images/reclinedtwist.png
+#      - assets/images/Seated Forward Fold.png
+#      - assets/images/HappyBabyPose.png
+#      - assets/images/SupportedBridgePose.png
+#      - assets/images/RecliningBoundAngle.png
+#      - assets/images/LegsuptheWall.png
+#      - assets/images/SphinxPose.png
+#      - assets/images/ButterflyPose.png
+#      - assets/images/SupinePigeon.png
+#      - assets/images/SupportedFishPose.png
+#      - assets/images/knee-to-chest.png
+#      - assets/images/Savasana.png
+#      - assets/images/ThreadtheNeedlePose.png
+#    - assets/profile_avatar.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/4.jpg"
